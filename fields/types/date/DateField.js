@@ -75,6 +75,7 @@ module.exports = Field.create({
 						format={this.props.inputFormat}
 						value={value}
 						onChange={this.valueChanged}
+						type="date"
 					/>
 				</InputGroup.Section>
 				<InputGroup.Section>
